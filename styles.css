@@ -1,0 +1,75 @@
+:root {
+  --fondo: #0f0f0f;
+  --texto: #f2f2f2;
+  --acento: #9be15d;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--fondo);
+  color: var(--texto);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+a {
+  color: var(--texto);
+  text-decoration: none;
+}
+
+.hero {
+  padding: 2rem;
+}
+
+.foto {
+  width: 200px;
+  height: 200px;
+  background: gray;
+  margin-top: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: var(--acento);
+  color: black;
+  padding: 0.5rem 1rem;
+}
+
+section {
+  padding: 2rem;
+}
+
+.tags span {
+  background: #222;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.link {
+  color: #4da6ff;
+  text-decoration: underline;
+}
+.edu-card img {
+  width: 95px;
+  height: 95px;
+  object-fit: contain;
+}
